@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070b16" />
+  <meta name="description" content="Demos JVSEKI: pastelaria, DS A Fonte, lab reserva e Aprendizado7." />
+  <title>Demos — JVSEKI</title>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="JVSEKI início">
+        <img src="assets/logo.png" alt="" width="40" height="40" />
+        <span>JVSEKI <span>DEV</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="casos.html" class="is-active">Demos</a>
+        <a href="orcamento.html">Orçamento</a>
+        <a href="contato.html" class="nav-cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap page-hero">
+      <p class="eyebrow reveal">Demos</p>
+      <h1 class="reveal">Teste o tipo de sistema</h1>
+      <p class="reveal">Demonstrações públicas — não são clientes fechados. Use pra ver o fluxo antes do orçamento.</p>
+    </div>
+
+    <section class="section" style="padding-top:0;">
+      <div class="wrap">
+        <div class="notice reveal">
+          <strong>Aviso</strong>
+          Exceto a DS A Fonte, as demos usam servidor gratuito: na primeira abertura pode ficar lento ou “acordar” (~30–60s). Atualize se precisar.
+        </div>
+
+        <div class="cases">
+          <article class="case reveal">
+            <span class="case__tag">Delivery</span>
+            <strong>Demo Pastelaria</strong>
+            <p>Cardápio, carrinho, pagamento e painel — modelo do sistema de delivery.</p>
+            <div class="notice">
+              <strong>Servidor demo</strong>
+              Pode haver delay ou servidor adormecido. Espere e atualize.
+            </div>
+            <div class="case__links">
+              <a href="https://pastelaria-mu.vercel.app" target="_blank" rel="noopener noreferrer">Abrir demo →</a>
+              <a href="servicos.html#delivery">Ver serviço →</a>
+            </div>
+          </article>
+
+          <article class="case reveal">
+            <span class="case__tag">Catálogo</span>
+            <strong>DS A Fonte</strong>
+            <p>Catálogo com busca e pedido no WhatsApp. Referência do pacote loja.</p>
+            <div class="notice notice--soft">
+              <strong>Demo estável</strong>
+              Sem aviso de cold start — pode abrir direto.
+            </div>
+            <div class="case__links">
+              <a href="https://ds-story-coral.vercel.app" target="_blank" rel="noopener noreferrer">Abrir site →</a>
+              <a href="servicos.html#catalogo">Ver serviço →</a>
+            </div>
+          </article>
+
+          <article class="case reveal">
+            <span class="case__tag">Agenda</span>
+            <strong>Lab Reserva (demo)</strong>
+            <p>Agendamento de equipamentos — demo pública de laboratório.</p>
+            <div class="notice">
+              <strong>Servidor demo</strong>
+              Pode demorar ou estar adormecido. Espere ~30–60s.
+            </div>
+            <div class="case__links">
+              <a href="https://labreserva-tcc.vercel.app" target="_blank" rel="noopener noreferrer">Abrir demo →</a>
+              <a href="servicos.html#agenda">Ver serviço →</a>
+            </div>
+          </article>
+
+          <article class="case reveal">
+            <span class="case__tag">Site + agenda</span>
+            <strong>Aprendizado7</strong>
+            <p>Site com agenda, login Google e painel admin.</p>
+            <div class="notice">
+              <strong>Servidor demo</strong>
+              Delay possível na primeira carga (servidor adormecido).
+            </div>
+            <div class="case__links">
+              <a href="https://aprendizado7.vercel.app" target="_blank" rel="noopener noreferrer">Abrir site →</a>
+              <a href="servicos.html#site-agenda">Ver serviço →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="hero__actions" style="margin-top:2rem;">
+          <a class="btn btn-primary reveal" href="https://wa.me/5518997640335?text=Oi%20Jo%C3%A3o%2C%20vi%20as%20demos%20e%20quero%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
+          <a class="btn btn-outline reveal" href="servicos.html">Ver serviços</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <span>JVSEKI · Andradina-SP</span>
+      <a href="https://github.com/jvseki" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
