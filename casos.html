@@ -67,9 +67,10 @@
         <div class="cases">
           <article class="case reveal">
             <span class="case__tag">Delivery</span>
-            <a href="https://pastelaria-mu.vercel.app" target="_blank" rel="noopener noreferrer">
-              <img class="case__shot" src="assets/demos/pastelaria.jpg" alt="Print do sistema de delivery — pastelaria no celular" width="390" height="520" loading="lazy" />
-            </a>
+            <button type="button" class="case__shot-wrap" data-lightbox="assets/demos/pastelaria.jpg" data-caption="Pastelaria — print completa (role para ver tudo)" aria-label="Ampliar print da pastelaria">
+              <img class="case__shot" src="assets/demos/pastelaria.jpg" alt="Print do sistema de delivery — pastelaria no celular" width="390" height="844" loading="lazy" />
+              <span class="case__shot-hint">Ampliar print</span>
+            </button>
             <strong>Exemplo Pastelaria</strong>
             <p>Cardápio, carrinho, pagamento e painel — modelo do sistema de delivery.</p>
             <div class="notice">
@@ -84,9 +85,10 @@
 
           <article class="case reveal">
             <span class="case__tag">Catálogo</span>
-            <a href="https://ds-story-coral.vercel.app" target="_blank" rel="noopener noreferrer">
-              <img class="case__shot" src="assets/demos/ds-fonte.jpg" alt="Print do catálogo DS A Fonte no celular" width="390" height="520" loading="lazy" />
-            </a>
+            <button type="button" class="case__shot-wrap" data-lightbox="assets/demos/ds-fonte.jpg" data-caption="DS A Fonte — print completa (role para ver tudo)" aria-label="Ampliar print do catálogo DS A Fonte">
+              <img class="case__shot" src="assets/demos/ds-fonte.jpg" alt="Print do catálogo DS A Fonte no celular" width="390" height="844" loading="lazy" />
+              <span class="case__shot-hint">Ampliar print</span>
+            </button>
             <strong>DS A Fonte</strong>
             <p>Catálogo com busca e pedido no WhatsApp. Referência do pacote loja.</p>
             <div class="notice notice--soft">
@@ -101,9 +103,10 @@
 
           <article class="case reveal">
             <span class="case__tag">Agenda</span>
-            <a href="https://labreserva-tcc.vercel.app" target="_blank" rel="noopener noreferrer">
-              <img class="case__shot" src="assets/demos/lab-reserva.jpg" alt="Print do agendamento de equipamentos no celular" width="390" height="520" loading="lazy" />
-            </a>
+            <button type="button" class="case__shot-wrap" data-lightbox="assets/demos/lab-reserva.jpg" data-caption="Lab Reserva — print completa (role para ver tudo)" aria-label="Ampliar print do lab reserva">
+              <img class="case__shot" src="assets/demos/lab-reserva.jpg" alt="Print do agendamento de equipamentos no celular" width="390" height="844" loading="lazy" />
+              <span class="case__shot-hint">Ampliar print</span>
+            </button>
             <strong>Lab Reserva (exemplo)</strong>
             <p>Agendamento de equipamentos — demonstração pública de laboratório.</p>
             <div class="notice">
@@ -118,9 +121,10 @@
 
           <article class="case reveal">
             <span class="case__tag">Site + agenda</span>
-            <a href="https://aprendizado7.vercel.app" target="_blank" rel="noopener noreferrer">
-              <img class="case__shot" src="assets/demos/aprendizado7.jpg" alt="Print do site com agenda Aprendizado7 no celular" width="390" height="520" loading="lazy" />
-            </a>
+            <button type="button" class="case__shot-wrap" data-lightbox="assets/demos/aprendizado7.jpg" data-caption="Aprendizado7 — print completa (role para ver tudo)" aria-label="Ampliar print do Aprendizado7">
+              <img class="case__shot" src="assets/demos/aprendizado7.jpg" alt="Print do site com agenda Aprendizado7 no celular" width="390" height="844" loading="lazy" />
+              <span class="case__shot-hint">Ampliar print</span>
+            </button>
             <strong>Aprendizado7</strong>
             <p>Site com agenda, login Google e painel administrativo.</p>
             <div class="notice">
@@ -132,6 +136,14 @@
               <a href="servicos.html#site-agenda">Ver serviço →</a>
             </div>
           </article>
+        </div>
+
+        <div id="lightbox" class="lightbox" hidden>
+          <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Print ampliada">
+            <button type="button" class="lightbox__close" aria-label="Fechar">×</button>
+            <img class="lightbox__img" src="" alt="" />
+            <p class="lightbox__caption"></p>
+          </div>
         </div>
 
         <div class="hero__actions" style="margin-top:2rem;">
