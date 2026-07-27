@@ -829,9 +829,33 @@ body.nav-open .menu-toggle span:nth-child(3) {
   border-bottom: 1px solid transparent;
 }
 
-.case__links a:hover {
-  border-bottom-color: var(--cyan);
+.highlight p {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
+
+.highlight__wa {
+  display: inline-block;
+  margin-top: 0.55rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--cyan);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.25s var(--ease), color 0.25s var(--ease);
+}
+
+.highlight__wa:hover {
+  border-bottom-color: var(--cyan);
+  color: var(--cyan-bright);
+}
+
+.case__wa {
+  width: 100%;
+  margin-top: 0.75rem;
+  min-height: 2.55rem;
+  font-size: 0.92rem;
+}
+
 
 /* Contact */
 .close {
