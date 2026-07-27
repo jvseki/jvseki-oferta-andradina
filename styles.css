@@ -619,6 +619,18 @@ body.nav-open .menu-toggle span:nth-child(3) {
   }
 }
 
+.case__shot {
+  display: block;
+  width: 100%;
+  aspect-ratio: 390 / 520;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 12px;
+  border: 1px solid rgba(34, 211, 238, 0.18);
+  margin-bottom: 0.35rem;
+  background: #0a1020;
+}
+
 .case {
   display: flex;
   flex-direction: column;
@@ -861,11 +873,11 @@ body.nav-open .menu-toggle span:nth-child(3) {
   font-style: normal;
 }
 
-/* Floating WhatsApp + Instagram */
-.fab-wa,
-.fab-ig {
+/* Floating WhatsApp */
+.fab-wa {
   position: fixed;
   right: 1rem;
+  bottom: 1rem;
   z-index: 60;
   width: 56px;
   height: 56px;
@@ -873,33 +885,18 @@ body.nav-open .menu-toggle span:nth-child(3) {
   display: grid;
   place-items: center;
   color: #fff;
+  background: #25d366;
+  box-shadow: 0 10px 28px rgba(37, 211, 102, 0.4);
   transition: transform 0.25s var(--ease);
 }
 
-.fab-wa {
-  bottom: 1rem;
-  background: #25d366;
-  box-shadow: 0 10px 28px rgba(37, 211, 102, 0.4);
-}
-
-.fab-ig {
-  bottom: calc(1rem + 64px);
-  background: linear-gradient(45deg, #f58529, #dd2a7b 45%, #8134af 70%, #515bd4);
-  box-shadow: 0 10px 28px rgba(221, 42, 123, 0.35);
-}
-
-.fab-wa:hover,
-.fab-ig:hover {
+.fab-wa:hover {
   transform: translateY(-3px) scale(1.04);
 }
 
-.fab-wa svg,
-.fab-ig svg {
+.fab-wa svg {
   width: 28px;
   height: 28px;
-}
-
-.fab-wa svg {
   fill: currentColor;
 }
 
@@ -907,11 +904,6 @@ body.nav-open .menu-toggle span:nth-child(3) {
   .fab-wa {
     right: 1.5rem;
     bottom: 1.5rem;
-  }
-
-  .fab-ig {
-    right: 1.5rem;
-    bottom: calc(1.5rem + 64px);
   }
 }
 

@@ -2,6 +2,7 @@
   "name": "jvseki-oferta-andradina",
   "private": true,
   "scripts": {
-    "start": "npx --yes serve . -p 5173"
+    "start": "npx --yes serve . -p 5173",
+    "capture-demos": "node scripts/capture-demos.mjs"
   }
 }
