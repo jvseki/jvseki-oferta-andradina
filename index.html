@@ -4,9 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#070b16" />
-  <meta name="description" content="JVSEKI — Delivery, catálogo, agenda e sites para negócios de Andradina-SP." />
-  <title>JVSEKI — Sistemas para Andradina</title>
-  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <title>JVSEKI — Sites e sistemas em Andradina</title>
+  <meta name="description" content="JVSEKI DEV — Delivery, catálogo, agenda e sites para negócios de Andradina-SP. Orçamento presencial." />
+  <link rel="canonical" href="https://jvsekidev.com.br/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="JVSEKI DEV" />
+  <meta property="og:url" content="https://jvsekidev.com.br/" />
+  <meta property="og:title" content="JVSEKI — Seu negócio no celular do cliente" />
+  <meta property="og:description" content="Sites, delivery, catálogo e agenda pra comércio de Andradina. Orçamento presencial." />
+  <meta property="og:image" content="https://jvsekidev.com.br/assets/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="JVSEKI — Sites e sistemas em Andradina" />
+  <meta name="twitter:description" content="Delivery, catálogo, agenda e sites. Orçamento presencial." />
+  <meta name="twitter:image" content="https://jvsekidev.com.br/assets/og.jpg" />
+
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="assets/favicon-64.png" type="image/png" sizes="64x64" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
@@ -16,7 +35,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html" aria-label="JVSEKI início">
-        <img src="assets/logo.png" alt="" width="40" height="40" />
+        <img src="assets/logo-sm.png" alt="" width="40" height="40" />
         <span>JVSEKI <span>DEV</span></span>
       </a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
@@ -34,10 +53,10 @@
 
   <main>
     <section class="hero" aria-label="Apresentação">
-      <div class="hero__media" role="img" aria-label="Banner JVSEKI"></div>
+      <div class="hero__media" role="img" aria-label="Comércio local no celular"></div>
       <div class="hero__veil" aria-hidden="true"></div>
       <div class="hero__content">
-        <img class="hero__logo" src="assets/logo.png" alt="JVSEKI" width="130" height="130" />
+        <img class="hero__logo" src="assets/logo-sm.png" alt="JVSEKI" width="130" height="130" />
         <p class="hero__brand">JVSEKI</p>
         <h1>Seu negócio de Andradina no celular do cliente</h1>
         <p class="hero__lead">Sites, cardápio digital, agenda e pedidos com pagamento — feitos aqui, pra quem vende aqui.</p>
@@ -50,9 +69,40 @@
 
     <section class="section">
       <div class="wrap">
+        <p class="eyebrow reveal">Como funciona</p>
+        <h2 class="reveal">Três passos até o orçamento</h2>
+        <p class="section-lead reveal">Sem preço genérico no site. A gente conversa e fecha presencialmente ou no WhatsApp.</p>
+
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <p class="step-card__n">PASSO 01</p>
+            <h3>Me chama</h3>
+            <p>WhatsApp ou presencial. Conta o que o negócio precisa — delivery, catálogo, agenda ou site.</p>
+          </article>
+          <article class="step-card reveal">
+            <p class="step-card__n">PASSO 02</p>
+            <h3>Vê a demo</h3>
+            <p>Abro um exemplo no celular pra você testar o fluxo antes de fechar qualquer coisa.</p>
+          </article>
+          <article class="step-card reveal">
+            <p class="step-card__n">PASSO 03</p>
+            <h3>Orçamento presencial</h3>
+            <p>Montamos o valor juntos, conforme o escopo. Manutenção e servidor entram na conversa.</p>
+          </article>
+        </div>
+
+        <div class="prazo-strip reveal">
+          <strong>Prazo médio</strong>
+          <p>Projetos mais simples: cerca de <em style="color:var(--text);font-style:normal">1 a 2 semanas</em>. Sistemas completos (delivery, agenda com painel): cerca de <em style="color:var(--text);font-style:normal">2 a 4 semanas</em>, conforme o que entrar no escopo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="wrap">
         <p class="eyebrow reveal">O que eu faço</p>
         <h2 class="reveal">Quatro soluções pro comércio local</h2>
-        <p class="section-lead reveal">Orçamento combinado pessoalmente — sem valor fixo no site. Demos pra você testar o tipo de sistema.</p>
+        <p class="section-lead reveal">Orçamento combinado pessoalmente. Demos pra você testar o tipo de sistema.</p>
 
         <div class="highlights">
           <article class="highlight reveal">
@@ -85,13 +135,18 @@
           </article>
         </div>
 
+        <div class="testimonial reveal">
+          <p class="testimonial__label">Depoimento</p>
+          <p><em>Em breve:</em> o primeiro cliente de Andradina entra aqui — nome, foto e uma frase curta sobre o sistema.</p>
+        </div>
+
         <div class="notice reveal" style="margin-top:1.5rem;">
           <strong>Sobre as demos</strong>
           Exceto o catálogo DS A Fonte, as demos podem demorar a abrir: o servidor gratuito “adormece”. Espere ~30–60s e atualize se precisar.
         </div>
 
         <div class="hero__actions" style="margin-top:1.75rem;">
-          <a class="btn btn-primary reveal" href="https://wa.me/5518997640335?text=Oi%20Jo%C3%A3o%2C%20quero%20um%20or%C3%A7amento%20pessoal." target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
+          <a class="btn btn-primary reveal" href="https://wa.me/5518997640335?text=Oi%20Jo%C3%A3o%2C%20quero%20um%20or%C3%A7amento%20presencial." target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
           <a class="btn btn-outline reveal" href="casos.html">Abrir demos</a>
         </div>
       </div>
@@ -100,10 +155,15 @@
 
   <footer class="foot">
     <div class="wrap foot__inner">
-      <span>JVSEKI · Andradina-SP</span>
+      <span>JVSEKI · jvsekidev.com.br</span>
       <a href="https://instagram.com/jvseki" target="_blank" rel="noopener noreferrer">@jvseki</a>
     </div>
   </footer>
+
+  <a class="fab-wa" href="https://wa.me/5518997640335?text=Oi%20Jo%C3%A3o%2C%20vim%20pelo%20site%20da%20JVSEKI." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.7 7.4L3.5 20.5l1.6-4.2A8.5 8.5 0 1 1 20.5 11.5zm-8.5 6.7a6.7 6.7 0 0 0 3.6-1.05l.26-.16 2.45.64-.66-2.38.17-.27a6.7 6.7 0 1 0-5.82 3.22zm3.66-4.72c-.2-.1-1.18-.58-1.36-.65-.18-.07-.32-.1-.45.1-.13.2-.52.65-.64.78-.12.13-.23.15-.43.05-.2-.1-.84-.31-1.6-.99-.59-.53-.99-1.18-1.1-1.38-.12-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.07-.13.03-.25-.02-.35-.05-.1-.45-1.08-.62-1.48-.16-.38-.33-.33-.45-.33h-.38c-.13 0-.35.05-.53.25-.18.2-.7.68-.7 1.66s.72 1.92.82 2.05c.1.13 1.41 2.15 3.42 3.02 1.2.52 1.67.56 2.27.47.37-.05 1.18-.48 1.35-.95.17-.47.17-.87.12-.95-.05-.08-.18-.13-.38-.23z"/></svg>
+  </a>
+
   <script src="script.js"></script>
 </body>
 </html>
